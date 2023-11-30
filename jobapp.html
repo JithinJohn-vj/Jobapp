@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobapp</title>
+    <style>
+        .main
+        {
+            width: 540px;
+            height: 600px;
+            background-color: white;
+            margin-left: 200px;
+            border: 2px solid rgb(255, 255, 255);
+            border-radius: 30px;
+            text-align: justify;
+            padding: 50px;
+            
+        }
+        input
+        {
+            height: 30px;
+            width: 250px;
+            
+        }
+    </style>
+</head>
+<body style="background-color: rgb(209, 219, 230); margin-top: 100px; margin-left: 200px;">
+    <form class="main">
+        <h1>Job Application(Web)</h1><br>
+        <table>
+            <thead>
+            </thead>
+            <div class="One">
+            <tr>
+                <td>First Name</td>
+                <td>Last Name</td>
+            </tr>
+            </div>
+            <div class="two">
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            </div>
+            <div class="three">
+            <tr>
+                <td>Email</td>
+                <td>Job Role</td>
+            </tr>
+            <div class="four">
+            <tr>
+                <td><input type="email"></td>
+                <td>
+                    <select style="width: 260px ;height: 35px;">
+                        <option>Choose</option>
+                        <option>PG</option>
+                        <option>UG</option>
+                        <option>HSE</option>
+                        <option>SSLC</option>
+                    </select>
+                </td>
+            </tr>
+    
+            <tr>
+                <td>Address</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <textarea name="comment" style="height: 50px;width: 520px; height: 100px;"></textarea>
+                </td>
+                <td></td>
+            </tr>
+            </div>
+            <tr>
+                <td>City</td>
+                <td>Pin Code</td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Start date</td>
+                <td>Upload Your Cv</td>
+            </tr>
+            <tr>
+                <td><input type="date"></td>
+                <td>
+                <div class="file">
+                <input type="file" style="border: 1px solid black; padding-left: 10px ;padding-top: 6px;"></td>
+                </div>
+                </td>
+            </tr>
+            <div class="But">
+            <tr>
+                <td colspan="2">
+                    <input type="button" value="Apply Now" style="height: 30px; width: 100px; background-color: red; margin-left: 430px;margin-top: 30px;">
+                </td>
+            </tr>
+        </div>
+        </table>
+        </div>
+    </form>
+</body>
+
+</html>
